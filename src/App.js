@@ -4,9 +4,7 @@ import './App.css';
 import React from 'react';
 import Web3 from 'web3';
 import Web3Modal from "web3modal";
-import WalletConnect from "@walletconnect/client";
 import WalletConnectProvider from '@walletconnect/web3-provider'
-const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
 
 const INFURA_ID = '460f40a260564ac4a4f4b3fffb032dad'
 
